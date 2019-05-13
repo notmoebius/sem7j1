@@ -11,15 +11,40 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 
+    <!-- Les icônes -->
+    <link href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
     <title>The Agency - marketplace UI kit</title>
 </head>
 <body>
 
     <!-- les couleurs -->
-
+    <p>Les couleurs</p><br>
+    <div class="dsp-color">
+        <div class="bloc-color primary">
+            <p>Primary    </p>
+        </div>
+        <div class="bloc-color secondary">
+                <p>Secondary    </p>
+        </div>
+        <div class="bloc-color info">
+                <p>Info    </p>
+        </div>
+        <div class="bloc-color success">
+                <p>Success    </p>
+        </div>
+        <div class="bloc-color danger">
+                <p>Danger    </p>
+        </div>
+        <div class="bloc-color warning">
+                <p>Warning    </p>
+        </div>
+    </div>
+    <br>
 
     <!-- la typographie -->
-    
+    <h3>La typographie</h3>
     <div>
         <p>Paragraph</p> <p>I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
         <p> Header 1</p> <h1>The Agency Project</h1>
@@ -28,7 +53,9 @@
         <p> Header 5</p> <h4>The Agency Project</h4>
         <p> Header 6</p> <h5>The Agency Project</h4>
     </div>
+    <br>
     <!-- les boutons -->
+    <h3>Les boutons</h3>
     <div class="row">
         <button class="btn btn-primary">Primary</button>
         <button class="btn btn-secondary">Secondary</button>
@@ -38,7 +65,8 @@
         <button class="btn btn-success">Success</button>
     </div>
     <br>
-    <div class="row" style="background-color: aliceblue">
+    <h4>boutons outline</h4>
+    <div class="row">
         <button class="btn btn-outline-primary">Primary</button>
         <button class="btn btn-secondary">Secondary</button>
         <button class="btn btn-info">Info</button>
@@ -47,21 +75,88 @@
         <button class="btn btn-success">Success</button>
     </div>
     <br>
+    <h4>boutons diffentes tailles</h4>
     <div class="row">
             <button class="btn btn-primary btn-sm">Primary</button>
+            <button class="btn btn-success">Success</button>
             <button class="btn btn-danger btn-lg">Danger</button>
-            <button class="btn btn-success btn-sm">Success</button>
     </div>
+    <br>
     <!-- l'iconographie -->
-
-
+    <h3>Iconographie</h3>
+    <div class="icons-containers">
+        <i class="im im-database"></i>
+        <i class="im im-tag"></i>
+        <i class="im im-4x im-tag"></i>
+        <i class="far fa-heart"></i>
+        <i class="fas fa-arrow-circle-down"></i>
+        <i class="fab fa-cc-paypal"></i>
+        <i class="fab fa-cc-stripe"></i>
+    </div>
+    <br>
     <!-- les inputs de formulaires -->
+    <h3>Les inputs</h3>
+    <input type="text" name="first_anme" id="" placeholder="Votre nom" size="40">
+    <br>
+    <input type="email" name="email" id="" placeholder="Email" >
+    <br>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">
+                <i class="fa fa-user-circle"></i>
+            </span>
+        </div>
+        <input type="email" name="mail" id="" placeholder="Mail" >
+    </div>
+    <br>
+    <input type="password" name="password" id="" placeholder="votre mot de passe">
+    <br>
+    <input type="button" value="Valider" class="btn" >
+    <br>
+    <br>
 
+    <div class="form-checkbox">
+        <label>
+            <input class="form-check-input" type="checkbox">
+            Male
+        </label>
+    </div>
+    <br>
+    <div class="form-checkbox">
+        <label>
+            <input class="form-check-input" type="checkbox" checked>
+            Femelle
+        </label>
+    </div>
+    <br>
+
+    <input type="checkbox" name="gender" value="Male" checked>Male <br>
+    <input type="checkbox" name="gender" value="Femelle" id="">Femelle <br>
+    <input type="checkbox" name="gender" value="Autre" id="">Autre <br>
+    <br>
+    <input type="radio" name="remember" checked>Oui <br>
+    <input type="radio" name="remember" >Non <br>
+    <br>
+    <br>
+    <select name="Type de cuisine">
+        <option value="française">française</option>
+        <option value="italienne">italienne</option>
+        <option value="chinoise">chinoise</option>
+        <option value="indienne">indienne</option>
+    </select> 
+    <br>
+    <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+    </textarea> 
 
     <!-- les cards -->
 
 
     <!-- les listes -->
     
+
+
+    <!-- footer -->
+    <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </body>
 </html>
